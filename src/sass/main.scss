@@ -1,0 +1,68 @@
+:root {
+    --clr-primary-200: #e0e8ff;
+    --clr-aaccent-800: #3829e0;
+
+    --ff-primary: "Red Hat Display", sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    font-family: var(--ff-primary);
+}
+
+body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: solid red;
+    background-color: var(--clr-primary-200);
+}
+
+.wave {
+    position: absolute;
+    z-index: -1;
+    min-width: auto;
+    min-height: 50%;
+    min-width: 100%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border: solid blue
+}
+
+.card {
+    max-width: 400px;
+    max-height: 620px;
+    border-radius: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+
+    &-info {
+        padding: 35px;
+    }
+
+    img {
+        max-width: 100%;
+        max-height: 100%;
+
+    }
+}

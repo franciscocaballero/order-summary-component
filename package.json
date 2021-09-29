@@ -1,0 +1,32 @@
+{
+  "name": "fm-order-summary-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscocaballero/order-summary-component.git"
+  },
+  "author": "Francisco caballero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscocaballero/order-summary-component/issues"
+  },
+  "homepage": "https://github.com/franciscocaballero/order-summary-component#readme",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0",
+    "parcel-bundler": "^1.12.5",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  }
+}
