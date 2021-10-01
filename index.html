@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700&display=swap"
+        rel="stylesheet">
+    <script crossorigin="anonymous" type="module" src="src/js/index.js"></script>
     <!-- displays site properly based on user's device -->
     <link rel="stylesheet" href="src/sass/main.scss" />
-    <!-- <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"> -->
-    <link rel="stylesheet" href="https://fonts.google.com/specimen/Red+Hat+Display">
-    <script crossorigin="anonymous" type="module" src="src/js/index.js"></script>
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
 
     <title>Frontend Mentor | Order summary card</title>
 
@@ -26,18 +28,24 @@
                 <h2>Order Summary</h2>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat adipisci quod, quis officia atque
                     temporibus!</p>
-                <div>
-                    <img src="" alt="">
-                    <div class="div">
-                        <h4>Annual Plan</h4>
-                        <p>Lorem, ipsum.</p>
-                        <button>Change</button>
+
+                <div class="subscription-container">
+                    <div>
+                        <img src="images/icon-music.svg" alt="Music symbol icon">
                     </div>
-                    <button>Proceed Payment</button>
-                    <button>Cancel Order</button>
+                    <div>
+                        <h4>Annual Plan</h4>
+                        <p>$59.99/year</p>
+                    </div>
+                    <a href="#">Change</a>
+                </div>
+                <div>
+                    <button class="btn btn--primary">Proceed to Payment</button>
+                    <button class="btn btn--secondary">Cancel Order</button>
                 </div>
             </div>
         </div>
+    </div>
     </div>
 
 </body>
